@@ -1,0 +1,22 @@
+【日志分析】
+
+1. 目标
+simpleX的用户操作日志分析，挖掘用户在不同模块之间操作的关联性，指导用户界面设计提升用户体验。
+后期基于ROM数据（系统数据、App数据），做用户画像（性别、年龄段、兴趣爱好等）。
+
+2. 思路
+2.1 数据集
+user_id,
+module_name,模块名，共12个
+operate_module,操作模块，
+operate_content,操作内容，
+section_org_id,部门ID，
+section_org_name,部门名称，43
+visit_platform,3
+user_ip(null),
+create_time,
+create_user,
+update_time,
+update_user_id,
+from_platform
+3. 解决方案
